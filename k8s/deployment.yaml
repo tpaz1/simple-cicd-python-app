@@ -17,5 +17,6 @@ spec:
       containers:
       - name: python-app
         image: tpaz1/tt:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
