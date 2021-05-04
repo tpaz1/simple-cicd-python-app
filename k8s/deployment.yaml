@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: tpaz1/tt:IMAGE_VERSION
+        image: tpaz1/tt:$IMAGE_VERSION
         ports:
         - containerPort: 5000
