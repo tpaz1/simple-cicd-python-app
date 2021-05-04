@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: tpaz1/tt:$BUILD_NUMBER
+        image: tpaz1/tt:latest
         ports:
         - containerPort: 5000
