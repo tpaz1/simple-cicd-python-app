@@ -33,6 +33,6 @@ Now we will go to our `GitHub` account and create a webhook to out project.
 we will set it like that:
 <img src="images/Screenshot%20from%202021-05-17%2017-00-12.png" >
 
-### Now lets check our pipeline
+### Now lets check it all out!!
 
-
+Commit a change on your `GitHub` Repository  and go to your jenkins to check if a build has been triggerd. 
