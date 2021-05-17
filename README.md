@@ -12,7 +12,7 @@ In this tutorial we are going to build a simple CI-CD pipeline using `Jenkins` a
 4. `ngrok` [installed](https://ngrok.com/download)
 
 ## Jenkins
-
+![alt text](images/Screenshot from 2021-05-17 15-54-58.png)
 
 
 
