@@ -20,7 +20,7 @@ In this tutorial we are going to build a simple CI-CD pipeline using `Jenkins` a
 3. In the Build section we will add a build step "Docker Build and Publish" and fill it as shown below (using your private cred and repository details) 
 <img src="images/Screenshot%20from%202021-05-17%2016-23-53.png" >
 4. Build triggers section as shown below
-<img src="images/Screenshot%20from%202021-05-17%2016-31-47.png" width="100" >
+<img src="images/Screenshot%20from%202021-05-17%2016-31-47.png" width="150" >
 
 
 
