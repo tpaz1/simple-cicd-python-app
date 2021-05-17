@@ -10,14 +10,15 @@ In this tutorial we are going to build a simple CI-CD pipeline using `Jenkins` a
 2. `Docker` [installed](https://docs.docker.com/get-docker/) on our Jenkins host
 3. Fork this project
 4. `ngrok` [installed](https://ngrok.com/download)
+5. `Docker Hub` empty Repository
 
 ## Jenkins
 1. In the left bar we will select "new item" and then "freestyle project"
 <img src="images/Screenshot%20from%202021-05-17%2015-54-58.png" width="150" >
 2. Under the "source code management" section we will paste our GitHub repo URL and Brances to build will be "*/main"
 <img src="images/Screenshot%20from%202021-05-17%2016-20-40.png" >
-
-
+3. In the build section we will add a build step "Docker Build and Publish" and fill it as shown below (using your private cred and repository details) 
+<img src="images/Screenshot%20from%202021-05-17%2016-23-53.png" >
 
 
 
