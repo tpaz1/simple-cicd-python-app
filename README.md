@@ -36,3 +36,9 @@ we will set it like that:
 ### Now lets check it all out!!
 
 Commit a change on your `GitHub` Repository  and go to your jenkins to check if a build has been triggerd. 
+<img src="images/Screenshot%20from%202021-05-17%2017-15-04.png" >
+As you can see a job has been triggerd.
+And we have a new `Docker image` with the build number tag on our `Docker Hub` repository:
+<img src="images/Screenshot%20from%202021-05-17%2017-23-51.png" >
+
+# WE MADE IT - we succesfully built a `CI` pipeline to our software project.
