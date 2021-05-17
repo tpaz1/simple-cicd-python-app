@@ -5,6 +5,7 @@ In this tutorial we are going to build a simple CI-CD pipeline using `Jenkins` a
    - Plugins required:
      - Docker plugin
      - Git plugin
+     - GitHub plugin
      - CloudBees Docker Build and Publish plugin 
 2. `Docker` [installed](https://docs.docker.com/get-docker/) on our Jenkins host
 3. Fork this project
