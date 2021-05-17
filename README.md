@@ -29,8 +29,14 @@ Now that we finished with our `Jenkins` pipeline we need to go to our github acc
 $  ngrok http 8080
 ```
 <img src="images/Screenshot%20from%202021-05-17%2016-54-02.png" >
+
+
+
 Now we will go to our `GitHub` account and create a webhook to out project.
 we will set it like that:
+
+
+
 <img src="images/Screenshot%20from%202021-05-17%2017-00-12.png" >
 
 ### Now lets check it all out!!
@@ -38,8 +44,10 @@ we will set it like that:
 Commit a change on your `GitHub` Repository  and go to your jenkins to check if a build has been triggerd. 
 <img src="images/Screenshot%20from%202021-05-17%2017-15-04.png" >
 
-As you can see a job has been triggerd.
-And we have a new `Docker image` with the build number tag on our `Docker Hub` repository:
+
+As you can see a job has been triggerd,
+and we have a new `Docker image` with the build number tag on our `Docker Hub` repository:
+
 
 <img src="images/Screenshot%20from%202021-05-17%2017-23-51.png" >
 
