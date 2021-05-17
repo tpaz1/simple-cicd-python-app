@@ -33,30 +33,6 @@ Now we will go to our `GitHub` account and create a webhook to out project.
 we will set it like that:
 <img src="images/Screenshot%20from%202021-05-17%2017-00-12.png" >
 
+### Now lets check our pipeline
 
 
-
-
-
-
-
-
-
-
-
-
-
-Build the image using the following command
-
-```bash
-$ docker build -t simple-flask-app:latest .
-```
-
-Run the Docker container using the command shown below.
-
-```bash
-$ docker run -d -p 5000:5000 simple-flask-app
-```
-
-The application will be accessible at http:127.0.0.1:5000 or if you are using boot2docker then first find ip address using `$ boot2docker ip` and the use the ip `http://<host_ip>:5000`
-check
