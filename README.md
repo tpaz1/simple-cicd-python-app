@@ -15,7 +15,7 @@ In this tutorial we are going to build a simple CI-CD pipeline using `Jenkins` a
 1. In the left bar we will select "new item" and then "freestyle project"
 <img src="images/Screenshot%20from%202021-05-17%2015-54-58.png" width="150" >
 2. Under the "source code management" section we will paste our GitHub repo URL and Brances to build will be "*/main"
-<img src="images/Screenshot%20from%202021-05-17%2016-20-40.png" width="250" >
+<img src="images/Screenshot%20from%202021-05-17%2016-20-40.png" >
 
 
 
