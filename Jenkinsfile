@@ -16,8 +16,6 @@ parameters {
    string(name: "Branch_Name", defaultValue: 'main', description: 'A name of the Git branch that contain the jenkinfile code')
    string(name: "Image_Name", defaultValue: 'tom-check', description: 'A name of the image that you want to build')
    string(name: "Image_Tag", defaultValue: 'latest', description: 'Image tag')
-   string(name: 'HTTP_PROXY', defaultValue: '<add the proxy details if the network is behind the proxy>', description: 'The proxy address to be used to connect to outside network when running docker build.')
-   string(name: 'HTTPS_PROXY', defaultValue: '<add the proxy details if the network is behind the proxy>', description: 'The proxy address to be used to connect to outside network when running docker build.')
    
    booleanParam(name: "PushImage", defaultValue: false)
 }
