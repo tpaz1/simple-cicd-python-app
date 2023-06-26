@@ -27,11 +27,7 @@ stages {// stage blocks
       steps {
          script {
             echo "Bulding docker images"
-            def buildArgs = """\
---build-arg HTTP_PROXY=${params.HTTP_PROXY} \
---build-arg HTTPS_PROXY=${params.HTTPS_PROXY} \
--f Dockerfile \
-."""
+            def buildArgs = """ -f ."""
             docker.build("${params.Image_Name}:${params.Image_Tag}", buildArgs)
          }
      }
