@@ -25,7 +25,7 @@ stages {// stage blocks
       steps {
          script {
             echo "Bulding docker images"
-            def buildArgs = """ -f ."""
+            def buildArgs = """ ."""
             docker.build("${params.Image_Name}:${params.Image_Tag}", buildArgs)
          }
      }
