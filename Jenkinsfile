@@ -17,7 +17,7 @@ parameters {
    string(name: "Image_Name", defaultValue: 'tom-check', description: 'A name of the image that you want to build')
    string(name: "Image_Tag", defaultValue: 'latest', description: 'Image tag')
    
-   booleanParam(name: "PushImage", defaultValue: false)
+   booleanParam(name: "PushImage", defaultValue: true)
 }
 // Stage Block
 stages {// stage blocks
